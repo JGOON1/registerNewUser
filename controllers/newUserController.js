@@ -19,5 +19,11 @@ const addUser = async (req,res) => {
 
 
 const getAllUsers = async (req, res) => {
+    let users = await newUser.findAll({})
+    res.status(200).send(users)
+}
 
+module.exports = {
+    addUser,
+    getAllUsers
 }

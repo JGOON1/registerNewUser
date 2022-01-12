@@ -8,3 +8,5 @@ router.post('/', newUserController.addUser)
 
 // access all the cUsers in the table
 router.get('/', newUserController.getAllUsers)
+
+module.exports = router;
