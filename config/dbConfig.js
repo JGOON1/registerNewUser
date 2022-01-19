@@ -6,6 +6,8 @@ module.exports = {
     dialect: 'postgres',
  }
 
+ //change
+
 
 
 // module.exports = {
