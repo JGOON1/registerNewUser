@@ -5,7 +5,7 @@ const port = process.env.PORT || 3050;
 
 
 app.use(express.json())
-app.use('/signup', routers)
+app.use('/users', routers)
 
 
 app.get('/', (req, res) => {
